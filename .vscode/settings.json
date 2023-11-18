@@ -1,0 +1,10 @@
+{
+    "react-scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "browser": "chrome"  // Puedes especificar aquí el navegador que prefieres (por ejemplo, "chrome" o "firefox")
+    }
+  }
+  
