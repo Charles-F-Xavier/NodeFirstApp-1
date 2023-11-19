@@ -1,14 +1,22 @@
 import React from 'react';
-import { Container, Typography } from '@mui/material';
+import { CssBaseline, Container, Typography, Box } from '@mui/material';
+import NavBar from './components/Navbar';
+import Footer from './components/Footer';
 import Formulario from './components/form';
 
 function App() {
     return (
-        <Container>
-            <Typography variant="h1">Hola, Mundo!</Typography>
-            <Typography variant="body1">Este es un ejemplo de aplicación React con Material-UI.</Typography>
-            <Formulario />
-        </Container>
+        <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            <CssBaseline />
+            <NavBar />
+            <Container maxWidth="lg" style={{ flex: 4, marginTop: '20px' }}>
+                <Typography variant="h1">Hola, Mundo!</Typography>
+                <Typography variant="body1">Este es un ejemplo de aplicación React con Material-UI.</Typography>
+                <Formulario />
+            </Container>
+            <Footer />
+        </Box>
+
     );
 }
 

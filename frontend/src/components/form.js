@@ -15,7 +15,7 @@ const Formulario = () => {
     };
 
     return (
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
             <form onSubmit={manejarEnvio}>
                 <TextField
                     label="Nombre"
