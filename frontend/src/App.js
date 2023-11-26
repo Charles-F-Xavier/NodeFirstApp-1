@@ -9,7 +9,7 @@ function App() {
         <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <CssBaseline />
             <NavBar />
-            <Container maxWidth="lg" style={{ flex: 4, marginTop: '20px' }}>
+            <Container maxWidth="lg" style={{ flex: 4, marginTop: '10px' }}>
                 <Typography variant="h1">Hola, Mundo!</Typography>
                 <Typography variant="body1">Este es un ejemplo de aplicación React con Material-UI.</Typography>
                 <Formulario />

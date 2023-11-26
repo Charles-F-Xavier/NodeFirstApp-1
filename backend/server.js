@@ -7,7 +7,7 @@ const { createConnection } = require('mysql');
 const config = require('../database/config');
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(cors());
 app.use('/api', apiRoutes);
